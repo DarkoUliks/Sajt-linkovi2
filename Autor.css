@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#backAutor {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+#backAutor2 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: none;
+}
+
+#home {
+  position: fixed;
+  margin-top: 220px;
+  margin-left: 3%;
+}
+
+#slikeHome {
+  height: 210px;
+  width: 170px;
+}
+
+#slikeHome:hover {
+  height: 240px;
+  width: 200px;
+}
+
+#slikeHome1 {
+  height: 210px;
+  width: 170px;
+  display: none;
+}
+
+#ulaz {
+  position: fixed;
+  margin-top: 590px;
+  margin-left: 85%;
+  animation-name: pokret;
+  animation-direction: normal;
+  animation-duration: 12s;
+}
+
+@keyframes pokret {
+  0% {
+    margin-top: 100px;
+  }
+
+  100% {
+    margin-top: 590px;
+  }
+}
+
+#ulazSlika {
+  height: 190px;
+  width: 160px;
+}
+
+#ulazSlika1 {
+  height: 190px;
+  width: 160px;
+  display: none;
+}
+
+#okvir {
+  width: 65%;
+  height: 700px;
+  background: transparent;
+  position: relative;
+  margin-left: 300px;
+  padding-top: 100px;
+  transform: rotate(4deg);
+}
+
+#levo {
+  width: 64.5%;
+  height: 100%;
+  background: black;
+  opacity: 0.8;
+  float: left;
+  text-align: center;
+}
+
+#levo h3 {
+  color: white;
+  font-size: 42px;
+}
+
+#levo p {
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.wiki {
+  color: white;
+  text-decoration-line: none;
+}
+
+#okvir .wiki:hover {
+  color: red;
+}
+
+#desno {
+  width: 35%;
+  height: 100%;
+  background: transparent;
+  margin-left: 65%;
+}
+
+#desno img {
+  width: 100%;
+  height: 100%;
+}
+
+#podaci {
+  width: 65%;
+  height: 40px;
+  background: black;
+  opacity: 0.8;
+  margin-left: 265px;
+  position: relative;
+  font-family: 'Acme', sans-serif;
+  margin-top: 10px;
+  line-height: 40px;
+  border-radius: 10px;
+  transform: rotate(4deg);
+}
+
+#podaci p {
+  margin-left: 40%;
+  color: white;
+}

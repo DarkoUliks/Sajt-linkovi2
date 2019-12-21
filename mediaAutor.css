@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 1600px) {
+    #okvir {
+        width: 60%;
+        height: 800px;
+        margin-left: 270px;
+        padding-top: 50px;
+    }
+
+    #podaci {
+        width: 60%;
+        height: 40px;
+        margin-left: 240px;
+    }
+}
+
+@media (max-width: 1275px) {
+    #okvir {
+        height: 900px;
+        margin-left: 250px;
+    }
+
+    #podaci {
+        margin-left: 215px;
+    }
+
+}
+
+@media (max-width: 1150px) {
+
+    #backAutor {
+        display: none;
+    }
+
+    #backAutor2 {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        display: block;
+    }
+
+    #okvir {
+        width: 65%;
+        height: 700px;
+        margin-left: 180px;
+        padding-top: 100px;
+        transform: rotate(0deg);
+    }
+
+    #slikeHome {
+        display: none;
+    }
+
+    #slikeHome1 {
+        height: 100px;
+        width: 100px;
+        display: block;
+        opacity: 0.2;
+    }
+
+    #slikeHome1:hover {
+        height: 110px;
+        width: 110px;
+    }
+
+    #ulazSlika {
+        height: 190px;
+        width: 160px;
+        display: none;
+    }
+
+    #ulazSlika1 {
+        height: 190px;
+        width: 160px;
+        display: block;
+    }
+
+    #ulaz {
+        margin-left: 84%;
+        animation-name: pokreta;
+        margin-top: 900px;
+
+    }
+
+    @keyframes pokreta {
+        0% {
+            margin-top: 100px;
+        }
+
+        100% {
+            margin-top: 900px;
+        }
+    }
+
+    #levo {
+        width: 100%;
+        height: 145%;
+        float: none;
+        transform: rotate(8deg);
+        background-color: transparent;
+        margin-top: 80px;
+    }
+
+    #desno {
+        width: 100%;
+        height: 87%;
+        margin-left: 0%;
+        margin-top: -10px;
+        border-radius: 20px;
+    }
+
+    #desno img{
+        border-radius: 20px;
+    }
+
+    #podaci {
+        width: 65%;
+        margin-left: 180px;
+        margin-top: 1000px;
+        transform: rotate(0deg);
+    }
+
+    #podaci p {
+        margin-left: 25%;
+    }
+
+}
+
+@media (max-width: 960px) {
+    #okvir {
+        margin-left: 220px;
+    }
+
+    #levo {
+        height: 185%;
+    }
+
+    #podaci {
+        margin-top: 1100px;
+    }
+
+}
